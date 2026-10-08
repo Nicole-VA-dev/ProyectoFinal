@@ -1,0 +1,141 @@
+
+/* Estilos generales del cuerpo */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333333;
+}
+
+/* Encabezado y Logo */
+
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #1abc9c;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1abc9c;
+    margin-bottom: 10px;
+}
+
+/* Barra de navegación */
+
+nav {
+    background-color: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+/* Banner principal */
+
+.banner {
+    background-color: #1abc9c;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Contenido principal */
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilos para imágenes y subtítulos (figcaption) con float */
+
+figure {
+    float: right;
+    width: 300px;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #718093;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* Limpiar flotados para evitar que afecten al footer */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Enlaces externos en el contenido */
+
+.content-link {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.content-link:hover {
+    color: #3498db;
+}
+
+/* Pie de página (Footer) */
+
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
